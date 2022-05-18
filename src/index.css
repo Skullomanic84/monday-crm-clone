@@ -42,6 +42,7 @@ nav .logo-container img {
 }
 
 nav .icon {
+    font-size: 20px;
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
@@ -69,7 +70,7 @@ nav .icon {
 }
 
 .ticket-card #link > * {
-    background-color: rgb(221,221,221);
+    background-color: rgb(228, 228, 228);
     margin: 2px;
     padding: 30px;
     width: 100%;
@@ -131,4 +132,26 @@ nav .icon {
 .ticket-card .progress-bar .progress-indicator {
     background-color: rgb(169, 238, 234);
     height: 100%;
+}
+
+.ticket-card .delete-block {
+    background-color: rgb(241, 238, 238);
+    width: 50px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-card .delete-block .delete-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(247, 148, 148);
 }
