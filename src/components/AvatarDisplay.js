@@ -1,7 +1,11 @@
-const AvatarDisplay = () => {
+import blankAvatar from '../images/blank-profile.png'
+
+const AvatarDisplay = ({ ticket }) => {
     return (
-        <div>
-            Avatar Display
+        <div className="avatar-container">
+            <div className="image-container">
+                <img src={ticket.avatar ? ticket.avatar : blankAvatar} alt={ticket.owner} />
+            </div>
         </div>
     )
 }
