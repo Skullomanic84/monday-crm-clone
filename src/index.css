@@ -61,12 +61,12 @@ nav .icon {
 /* TicketCard */
 .ticket-card {
     display: flex;
-    width: 100%;
+    width: 90%;
 }
 
 .ticket-card #link {
     display: flex;
-    width: 100%;
+    width: 90%;
 }
 
 .ticket-card #link > * {
@@ -118,7 +118,7 @@ nav .icon {
 }
 
 .ticket-card .progress-display {
-    min-width: 200px;
+    min-width: 100px;
 }
 
 .ticket-card .progress-bar {
@@ -144,14 +144,14 @@ nav .icon {
 }
 
 .ticket-card .delete-block .delete-icon {
-    height: 50px;
-    width: 50px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     background-color: rgb(218, 218, 218);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     color: rgb(247, 148, 148);
 }
